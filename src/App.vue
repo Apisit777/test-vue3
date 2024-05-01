@@ -50,7 +50,7 @@ const notificationTimeout = () => {
 }
 
 const counter = reactive({ count: 0 })
-// const searchTexe = ref('')
+const searchTexe = ref('')
 
 const increase = () => {
   counter.count = counter.count + 1
